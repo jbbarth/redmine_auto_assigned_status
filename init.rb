@@ -1,5 +1,7 @@
 require 'redmine'
 
+require 'auto_assign_hook'
+
 Redmine::Plugin.register :redmine_auto_assigned_status do
   name 'Redmine Auto Assigned Status plugin'
   author 'Author name'
