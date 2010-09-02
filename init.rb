@@ -3,10 +3,8 @@ require 'redmine'
 require 'auto_assign_hook'
 
 Redmine::Plugin.register :redmine_auto_assigned_status do
-  name 'Redmine Auto Assigned Status plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  name 'Auto-assigns issues when setting an assignee'
+  author 'Jean-Baptiste Barth'
+  description 'This is a sample plugin for http://www.redmine.org/issues/6203'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
 end
